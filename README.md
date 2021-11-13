@@ -38,3 +38,7 @@ Use this script in your own risk, i'm not responsible if any issues on your acco
 ## Developer Info
 
 [![Contributers](https://contributors-img.web.app/image?repo=riz4d/stegnowav)](https://github.com/riz4d)
+<br>
+Name    : Muhammed Rizad<br>
+Email   : rizadmuhammed@protonmail.com<br>
+Website : [visit](https://rizad.ml)<br>
