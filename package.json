@@ -1,0 +1,28 @@
+{
+    "name": "igbot",
+    "version": "1.0.0",
+    "description": "OSIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/riz4d/IG-BOT.git"
+    },
+    "author": "Muhammed Rizad",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/riz4d/IG-BOT/issues"
+    },
+    "homepage": "https://github.com/riz4d/IG-BOT#readme",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "colors": "^1.4.0",
+        "fs": "0.0.1-security",
+        "inquirer": "^6.5.0",
+        "instagram-private-api": "^1.21.1",
+        "moment": "^2.29.1",
+        "user-home": "^2.0.0"
+    }
+}
