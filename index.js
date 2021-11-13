@@ -1,4 +1,4 @@
-const { chalk, inquirer, print } = require("./tools/index.js");
+const { chalk, inquirer, print } = require("./method/index.js");
 var moment = require("moment");
 var colors = require("colors");
 var userHome = require("user-home");
