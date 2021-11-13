@@ -1,6 +1,6 @@
 # IG-BOT
 
-it is an Javascript Oriented tool to Automating Instagram Actions.
+it is an Node js Oriented tool to Automating Instagram Actions.
 Based on Instagram API
 
 ### What Is Instagram Bot ?
