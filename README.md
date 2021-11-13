@@ -33,7 +33,7 @@ out of maintaining your own social accounts.
 `node index.js`
 
 ## Warning
-Use this script in your own risk, i'm not responsible if any issues on account
+Use this script in your own risk, i'm not responsible if any issues on your account
 
 ## Contributors
 
