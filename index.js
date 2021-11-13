@@ -56,7 +56,7 @@ const main = async () => {
         choice == questionTools[2] && require("./method/liketarget.js");
         choice == questionTools[3] && require("./method/delallmedia.js");
         choice == questionTools[4] && require("./method/flonly.js");
-        choice == questionTools[5] && require("./method/lconly.js");
+        choice == questionTools[5] && require("./method/iconly.js");
         choice == questionTools[6] && require("./method/fftauto.js");
         choice == questionTools[7] && require("./method/fftbetaauto.js");
         choice == questionTools[8] && require("./method/fftautov2.js");
