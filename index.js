@@ -72,7 +72,7 @@ const main = async () => {
     }
 };
 
-console.log(chalk`{bold.green
+console.log(chalk`{bold.yellow
 
 ██╗░██████╗░  ██████╗░░█████╗░████████╗
 ██║██╔════╝░  ██╔══██╗██╔══██╗╚══██╔══╝
