@@ -35,6 +35,6 @@ out of maintaining your own social accounts.
 ## Warning
 Use this script in your own risk, i'm not responsible if any issues on your account
 
-## Contributors
+## Developer Info
 
 [![Contributers](https://contributors-img.web.app/image?repo=riz4d/stegnowav)](https://github.com/riz4d)
