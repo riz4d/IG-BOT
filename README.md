@@ -10,6 +10,10 @@ Depending on the type of bot you use, they can like posts, make comments, answer
 send direct messages, and follow new profiles all on your behalf. Bots take the drudgery
 out of maintaining your own social accounts.
 
+## Requirements
+ `sudo apt install nodejs-lts` (linux Based)
+         Or
+ `pkg install nodejs-lts` (other)
 ## Installation
 
 #### Step 1
