@@ -12,6 +12,9 @@ Depending on the type of bot you use, they can like posts, make comments, answer
 send direct messages, and follow new profiles all on your behalf. Bots take the drudgery
 out of maintaining your own social accounts.
 
+## Demo
+<img src="bot/screenshot.jpg" alt="Instagram Bot" width="200" height="200"> 
+
 ## Requirements
  `sudo apt install nodejs-lts` (linux Based)
          Or
