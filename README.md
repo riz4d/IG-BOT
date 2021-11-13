@@ -29,4 +29,4 @@ out of maintaining your own social accounts.
 
 ## Contributors
 
-![Contributers](https://contributors-img.web.app/image?repo=riz4d/stegnowav)
+[![Contributers](https://contributors-img.web.app/image?repo=riz4d/stegnowav)](https://github.com/riz4d)
