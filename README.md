@@ -1,5 +1,7 @@
 # IG-BOT
 
+<img alt="Instagram Bot" src="bot/igbot.png"/>
+
 it is an Node js Oriented tool to Automating Instagram Actions.
 Based on Instagram API
 
