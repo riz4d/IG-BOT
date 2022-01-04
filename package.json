@@ -1,7 +1,7 @@
 {
-    "name": "igbot",
+    "name": "autoinsta",
     "version": "1.0.0",
-    "description": "OSIT",
+    "description": "A bot for instagram to increase reach of instagram account by bot activities with using instagram private API.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
         "type": "git",
         "url": "git+https://github.com/riz4d/IG-BOT.git"
     },
-    "author": "Muhammed Rizad",
+    "author": "riz4d",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/riz4d/IG-BOT/issues"

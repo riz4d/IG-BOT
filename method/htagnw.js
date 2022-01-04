@@ -72,16 +72,15 @@ const { chalk, inquirer, _, fs, instagram, print, delay } = require("./index.js"
                 await Promise.all(
                     items[i].map(async (media) => {
                         const status = await ig.friendshipStatus(media.user.pk);
-                        if (!media.has_liked && !media.user.is_private && !status.following && !status.followed_by) {
+                        if (!media.has_liked && !media.user.is_private) {
                             const text = inputMessage.split("|");
                             const msg = text[Math.floor(Math.random() * text.length)];
-                            const task = [ig.follow(media.user.pk), ig.like(media.pk), ig.comment(media.pk, msg)];
-                            let [follow, like, comment] = await Promise.all(task);
-                            follow = follow ? chalk.bold.green(`Follow`) : chalk.bold.red("Follow");
+                            const task = [ig.like(media.pk), ig.comment(media.pk, msg)];
+                            let [like, comment] = await Promise.all(task);
                             like = like ? chalk.bold.green("Like") : chalk.bold.red("Like");
                             comment = comment ? chalk.bold.green("Comment") : chalk.bold.red("Comment");
-                            print(`▲ @${media.user.username} ⇶ [${follow}, ${like}, ${comment}] ⇶ ${chalk.cyanBright(msg)}`);
-                        } else print(chalk`▼ @${media.user.username} ⇶ {yellow Private or already liked/followed/follows you}`);
+                            print(`▲ @${media.user.username} ⇶ [${like}, ${comment}] ⇶ ${chalk.cyanBright(msg)}`);
+                        } else print(chalk`▼ @${media.user.username} ⇶ {yellow Private or already liked}`);
                     })
                 );
                 if (i < items.length - 1) print(`Current Account: (${login.username}) » Delay: ${perExec}/${delayTime}ms \n`, "wait", true);

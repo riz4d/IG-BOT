@@ -18,27 +18,28 @@ for (var k in interfaces) {
 // DETECT IP *END!
 
 const questionTools = [
-    "➥ Information",
-    "➥ Bot Like Timeline",
-    "➥ Bot Like Target User",
-    "➥ Mass Delete Post/Photo",
+    "Ξ Information",
+    "Ξ Bot Like Timeline",
+    "Ξ Bot Like Target User",
+    "Ξ Mass Delete Post/Photo",
 
-    "➥ Followers Target (follow,like)",
-    "➥ Followers Target (like,comment)",
+    "Ξ Followers Target (follow,like)",
+    "Ξ Followers Target (like,comment)",
 
-    "➥ Followers Target (follow,like,comment)",
-    "➥ Followers Target ver2 (follow,like,comment)",
+    "Ξ Followers Target (follow,like,comment)",
+    "Ξ Followers Target ver2 (follow,like,comment)",
 
-    "➥ Followers Target ver3 (follow,like,comment)",
+    "Ξ Followers Target ver3 (follow,like,comment)",
 
-    "➥ Followers Target (follow,like,message)",
-    "➥ Followers Target ver2 (follow,like,message)",
+    "Ξ Followers Target (follow,like,message)",
+    "Ξ Followers Target ver2 (follow,like,message)",
 
-    "➥ Hashtag Target (follow,like,comment)",
-    "➥ Location Target (follow,like,comment)",
+    "Ξ Hashtag Target (follow,like,comment)",
+    "Ξ Hashtag Target (like,comment)",
+    "Ξ Location Target (follow,like,comment)",
 
-    "➥ Unfollow All Following",
-    "➥ Unfollow Not Followback",
+    "Ξ Unfollow All Following",
+    "Ξ Unfollow Not Followback",
     "\n",
 ];
 
@@ -63,10 +64,11 @@ const main = async () => {
         choice == questionTools[9] && require("./method/fftdmauto.js");
         choice == questionTools[10] && require("./method/fftdmbetaauto.js");
         choice == questionTools[11] && require("./method/fhtauto.js");
-        choice == questionTools[12] && require("./method/fltauto.js");
-        choice == questionTools[13] && require("./method/unfollowall.js");
-        choice == questionTools[14] && require("./method/unfollnotfollback.js");
-        choice == questionTools[15] && process.exit();
+        choice == questionTools[12] && require("./method/htagnw.js");
+        choice == questionTools[13] && require("./method/fltauto.js");
+        choice == questionTools[14] && require("./method/unfollowall.js");
+        choice == questionTools[15] && require("./method/unfollnotfollback.js");
+        choice == questionTools[16] && process.exit();
     } catch (err) {
         print(err, "err");
     }
@@ -81,9 +83,9 @@ console.log(chalk`{bold.yellow
 ██║╚██████╔╝  ██████╦╝╚█████╔╝░░░██║░░░
 ╚═╝░╚═════╝░  ╚═════╝░░╚════╝░░░░╚═╝░░░
 
-  Ξ Developer  : Muhammed Rizad
+  Ξ Developer  : Mohamed Rizad (riz4d)
   Ξ Email  : rizadmuhammed@protonmail.com
-  Ξ Instagram : @rizad__x96
+  Ξ Instagram : @riz.4d
   Ξ Website : https://rizad.ml
   }`);
 console.log("  Ξ YOUR IP  : ".bold.red + addresses);
